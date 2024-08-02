@@ -1,13 +1,15 @@
 /* ------------ Styling of Home page ------------ */
 html, body {
-    overflow: hidden;
+    overflow-wrap: normal;
+    height: 100%;
 }
 body {
     background-image: url(../images/bg/home_background_image.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     height: 100vh;
+    background-color: black;
 }
 .text-yellow {
     color: #FFF600;
@@ -31,7 +33,7 @@ body {
     color: #FFF600;
 }
 .overlay {
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,6 +50,45 @@ body {
     border-radius: 5rem;
     background: #181A2D;
 }
+/* ------------ Styling of Backbones section ------------ */
+.bg-dark {
+    background-image: url(../html/img1141.jpg);
+
+}
+
+#NEC-Img {
+    float: left;
+}
+
+.backbones {
+    padding: 4rem 0;
+}
+.backbone-member img {
+    border: 5px solid #FFF600; /* Yellow border */
+    transition: transform 0.3s;
+}
+.backbone-member img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+.overlay {
+    position: absolute;
+    top: 100;
+    left: 100;
+    width: 100%;
+    height: 93%;
+    background: rgba(0, 0, 0, 0.85); /* Change the rgba value to adjust overlay color and transparency */
+    z-index: 1;
+}
+/* ------------ Styling of NEC section ------------ */
+bg-dark {
+    background-image: url(../html/img1141.jpg);
+}
+
+
+
+
+
+
 
 /* ------------ Styling of About page ------------ */
 

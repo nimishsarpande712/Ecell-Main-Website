@@ -85,6 +85,18 @@ bg-dark {
 }
 
 
+/* ------------ Styling of Contact Section ------------ */
+
+.input {
+    background-color: #1F2229;
+    padding: 1rem 1rem; /* Adjusted padding for better responsiveness */
+    margin: 1rem 0;
+    border-radius: 0.375rem; /* Added border-radius for a softer look */
+    width: 100%;
+}
+
+
+
 
 
 
